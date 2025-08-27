@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love 💝</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Caveat:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background: linear-gradient(135deg, #ffeff5 0%, #ffe4e6 50%, #fce7f3 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .heart {
+            color: #e11d48;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 2s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .romantic-text {
+            font-family: 'Caveat', cursive;
+            font-size: 1.5rem;
+            line-height: 1.8;
+            color: #4c0519;
+        }
+        
+        .message-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            box-shadow: 0 15px 35px rgba(225, 29, 72, 0.15);
+            transition: all 0.4s ease;
+            border: 2px solid rgba(225, 29, 72, 0.1);
+        }
+        
+        .message-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(225, 29, 72, 0.25);
+        }
+        
+        .rose-petal {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.7;
+            animation: float 8s ease-in-out infinite;
+            z-index: 1;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
+            50% { transform: translateY(-25px) rotate(180deg); opacity: 0.9; }
+        }
+        
+        .secret-message {
+            opacity: 0;
+            transform: scale(0.95);
+            transition: all 0.8s ease;
+        }
+        
+        .revealed {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        .photo-frame {
+            border: 8px solid white;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-frame:hover {
+            transform: scale(1.02);
+        }
+        
+        .cursive-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+        }
+        
+        .sparkle {
+            animation: sparkle 2s ease-in-out infinite;
+        }
+        
+        @keyframes sparkle {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center">
+    <!-- Floating Rose Petals Background -->
+    <div class="fixed inset-0 pointer-events-none z-0" id="petals"></div>
+
+    <!-- Main Content Container -->
+    <div class="relative z-10 max-w-4xl w-full space-y-10 px-4">
+        <!-- Hero Section -->
+        <div class="text-center fade-in">
+            <div class="mb-8">
+                <span class="heart text-7xl">💝</span>
+            </div>
+            <h1 class="cursive-title font-bold text-rose-900 mb-6 sparkle">
+                Happy Birthday, Lidya Nurul Agustin 🤍
+            </h1>
+            <p class="text-2xl text-rose-700 font-semibold">Celebrating the most beautiful soul in my life</p>
+        </div>
+
+        <!-- Your Partner's Photo - REPLACE THIS IMAGE SOURCE -->
+        <div class="flex justify-center fade-in">
+            <div class="photo-frame w-full max-w-md">
+                <img 
+                    src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2002.01.41.jpeg
+" 
+                    alt="Replace this with your girlfriend's beautiful photo - upload to imgur.com and paste the direct image link here"
+                    class="w-full h-auto object-cover"
+                    id="partnerPhoto"
+                    onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='block';"
+                />
+                <div id="photoPlaceholder" class="hidden text-center p-8 bg-rose-100 text-rose-700">
+                    <p class="text-lg">Add your girlfriend's photo by replacing the image source in the code</p>
+                    <p class="text-sm mt-2">Upload to imgur.com and paste the direct link</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Romantic Message -->
+        <div class="message-card p-10 fade-in">
+            <div class="romantic-text text-center">
+                <p class="text-3xl text-rose-800 mb-8">My Dearest Beautiful Girl,</p>
+                
+                <p class="mb-6">
+                    On this magical day that brought you into the world, I want to tell you how incredibly 
+                    blessed I am to have you in my life. Your smile is my sunshine, your laughter is my 
+                    favorite music, and your love is the greatest treasure I've ever known.
+                </p>
+                
+                <p class="mb-6">
+                    Every moment with you feels like a page from a fairy tale. The way you light up a room, 
+                    the kindness in your heart, and the passion in your soul – these are just a few of the 
+                    countless reasons why I fall more in love with you every single day.
+                </p>
+                
+                <p class="mb-6">
+                    Today, I wish for you all the happiness in the universe, dreams that come true beyond 
+                    your wildest imagination, and a lifetime of beautiful moments that we'll cherish forever.
+                </p>
+                
+                <p class="text-2xl text-rose-700 mt-8">
+                    You are my everything. 💖
+                </p>
+            </div>
+        </div>
+
+        <!-- Love Grid Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- What I Love About You -->
+            <div class="message-card p-8 fade-in">
+                <h3 class="text-2xl font-bold text-rose-800 mb-6 text-center">Reasons I Adore You</h3>
+                <ul class="romantic-text space-y-4">
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">✨</span>
+                        <span>The way your eyes sparkle when you're happy</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">✨</span>
+                        <span>Your incredible strength and resilience</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">✨</span>
+                        <span>The warmth and comfort of your embrace</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">✨</span>
+                        <span>Your beautiful mind and compassionate heart</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">✨</span>
+                        <span>The way you make ordinary moments extraordinary</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Birthday Wishes -->
+            <div class="message-card p-8 fade-in">
+                <h3 class="text-2xl font-bold text-rose-800 mb-6 text-center">My Birthday Wishes For You</h3>
+                <ul class="romantic-text space-y-4">
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">🎂</span>
+                        <span>A year filled with endless joy and laughter</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">🌟</span>
+                        <span>All your dreams and aspirations coming true</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">💖</span>
+                        <span>Love that grows deeper with each passing day</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">🌹</span>
+                        <span>Moments that take your breath away</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="heart text-xl mr-3">🎁</span>
+                        <span>Everything your beautiful heart desires</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Special Interactive Section -->
+        <div class="text-center fade-in">
+            <button 
+                id="loveButton" 
+                class="bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-700 hover:to-pink-700 text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+            >
+                💕 Click for My Heart's Secret Message
+            </button>
+        </div>
+
+        <!-- Secret Love Message -->
+        <div id="secretMessage" class="message-card p-10 text-center secret-message">
+            <div class="romantic-text">
+                <p class="text-4xl text-rose-800 mb-6 cursive-title">My Forever Love</p>
+                <p class="text-2xl mb-6">
+                    Selamat ulang tahun pacar kesayanganku, semoga dengan bertambahnya usiamu
+                    semakin bertambah kebahagiaanmu sayangku. Semoga kamu selalu diberikan'
+                    kesehatan dan kemudahan dalam urusan hal apapun ya sayangku🤍
+                </p>
+                <p class="mb-6">
+                    Maaf yaa kali ini ulang tahun kamu kita rayain dalam kondisi berjauhan sayangku
+                    Tapi percayalah, doaku tak pernah terputus untuk kamu sayangku🤍
+                </p>
+                <p class="text-3xl text-rose-700 mt-8 cursive-title">
+                    Happy Birthday to the love of my life!
+                </p>
+                <p class="text-xl text-rose-600 mt-6">
+                    Forever yours, Lidya🤍<br>
+                    <span class="font-bold">Ferdian Lesmana</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Memory Photo Section -->
+        <div class="message-card p-8 fade-in">
+            <h3 class="text-2xl font-bold text-rose-800 mb-6 text-center">Our Beautiful Memories</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="photo-frame">
+                    <img 
+                        src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2001.55.08%20(1).jpeg
+" 
+                        alt="Add another photo memory of you two together - romantic moment or special occasion"
+                        class="w-full h-48 object-cover"
+                    />
+                </div>
+                <div class="photo-frame">
+                    <img 
+                        src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2001.55.12%20(1).jpeg
+" 
+                        alt="Add another sweet memory photo - maybe a vacation or celebration together"
+                        class="w-full h-48 object-cover"
+                    />
+                </div>
+            </div>
+        </div>
+
+        <!-- Final Footer -->
+        <div class="text-center py-12 fade-in">
+            <div class="heart text-5xl mb-4">💖</div>
+            <p class="text-rose-600 text-xl font-semibold">Created with all my love for the most amazing person</p>
+            <p class="text-rose-500 mt-2">May your birthday be as beautiful as you are! 🎉🎂</p>
+            <p class="text-rose-500 mt-2">Selamat Ulang Tahun Kesayanganku Lidya Nurul Agustin🤍</p>
+        </div>
+    </div>
+
+    <script>
+        // Create floating rose petals animation
+        function createPetals() {
+            const petalsContainer = document.getElementById('petals');
+            const petalChars = ['🌸', '💮', '💐', '🌹', '🥀', '🌺', '🌷'];
+            
+            for (let i = 0; i < 25; i++) {
+                const petal = document.createElement('div');
+                petal.className = 'rose-petal';
+                petal.innerHTML = petalChars[Math.floor(Math.random() * petalChars.length)];
+                petal.style.left = Math.random() * 100 + '%';
+                petal.style.top = Math.random() * 100 + '%';
+                petal.style.animationDelay = Math.random() * 6 + 's';
+                petal.style.fontSize = (Math.random() * 1.5 + 1.8) + 'rem';
+                petal.style.color = ['#e11d48', '#fb7185', '#fda4af', '#fecdd3'][Math.floor(Math.random() * 4)];
+                petalsContainer.appendChild(petal);
+            }
+        }
+
+        // Reveal secret message with celebration
+        document.getElementById('loveButton').addEventListener('click', function() {
+            const message = document.getElementById('secretMessage');
+            message.classList.add('revealed');
+            this.style.display = 'none';
+            
+            // Create floating hearts celebration
+            for (let i = 0; i < 75; i++) {
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.innerHTML = ['❤', '💕', '💖', '💗', '💓'][Math.floor(Math.random() * 5)];
+                    heart.className = 'heart fixed text-3xl z-50';
+                    heart.style.left = Math.random() * 100 + '%';
+                    heart.style.top = Math.random() * 100 + '%';
+                    heart.style.color = ['#e11d48', '#fb7185', '#fda4af', '#f472b6'][Math.floor(Math.random() * 4)];
+                    heart.style.opacity = '0.8';
+                    heart.style.pointerEvents = 'none';
+                    document.body.appendChild(heart);
+                    
+                    setTimeout(() => {
+                        heart.style.transition = 'all 2s ease-out';
+                        heart.style.opacity = '0';
+                        heart.style.transform = 'translateY(-100px)';
+                        setTimeout(() => heart.remove(), 2000);
+                    }, 1000);
+                }, i * 50);
+            }
+            
+            // Play celebration sound (optional)
+            try {
+                const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+fwtmMcBjiR1/LMeSwFJHbH79yRQAkUXrHl67RYFgxKnN/wwHUpBSt+0/LMeSwFJHbH7+2aRgsSVqTi7LZdGAtGmNvvw3cpBSt7z/LThzUGJHLC7+SRPwgUXrDk6rVdGQxJmtzvwnYqBix8z/LThzUGJHLC7+2aRgsSVqTi7LZdGAtGmNvvw3cpBSt7z/LThzUGJHLC7+SRPwgUXrDk6rVdGQxJmtzvwnYqBix8z/LThzUGJHLC7+2aRgsSVqTicsF1Pio2Rl6CnkXZgW2iAnsTDrIFTTlVye5bB');
+                audio.volume = 0.3;
+                audio.play();
+            } catch (e) {}
+        });
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            createPetals();
+            
+            // Stagger animations for message cards
+            const messageCards = document.querySelectorAll('.message-card');
+            messageCards.forEach((card, index) => {
+                card.style.animationDelay = (index * 0.3) + 's';
+            });
+            
+            // Auto-scroll to top gently
+            setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 100);
+        });
+
+    </script>
+</body>
+</html>
