@@ -359,15 +359,6 @@
             }, 100);
         });
 
-        // Instructions for adding photos
-        console.log(`💝 HOW TO ADD YOUR GIRLFRIEND'S PHOTO:
-        1. Go to imgur.com
-        2. Upload your girlfriend's photo
-        3. Get the direct image link (ends with .jpg, .png, etc.)
-        4. Replace the image source in the code:
-           - Find: <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/de31c1af-7dc8-4ee5-962c-005599e565d5.png" ... />
-           - Replace with: <img src="YOUR_IMAGE_LINK_HERE" ... />
-        5. Save the file and open it in a web browser`);
     </script>
 </body>
 </html>
