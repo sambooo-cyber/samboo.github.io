@@ -253,7 +253,7 @@
                 </p>
                 <p class="text-xl text-rose-600 mt-6">
                     Forever yours, Lidya🤍<br>
-                    <span class="font-bold">[Your Name]</span>
+                    <span class="font-bold">Ferdian Lesmana</span>
                 </p>
             </div>
         </div>
