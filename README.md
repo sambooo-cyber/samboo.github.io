@@ -1,4 +1,4 @@
-![HUC31Xz](https://github.com/user-attachments/assets/b7d307ac-2d7a-4fb5-ab04-fe3203f8d1d2)<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
