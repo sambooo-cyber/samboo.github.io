@@ -127,7 +127,8 @@
         <div class="flex justify-center fade-in">
             <div class="photo-frame w-full max-w-md">
                 <img 
-                    src="https://imgur.com/a/Fkl5cQw" 
+                    src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2002.01.41.jpeg
+" 
                     alt="Replace this with your girlfriend's beautiful photo - upload to imgur.com and paste the direct image link here"
                     class="w-full h-auto object-cover"
                     id="partnerPhoto"
@@ -264,14 +265,16 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="photo-frame">
                     <img 
-                        src="https://imgur.com/a/DsB9rGK" 
+                        src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2001.55.08%20(1).jpeg
+" 
                         alt="Add another photo memory of you two together - romantic moment or special occasion"
                         class="w-full h-48 object-cover"
                     />
                 </div>
                 <div class="photo-frame">
                     <img 
-                        src="https://imgur.com/a/LHDE1aC" 
+                        src="https://raw.githubusercontent.com/sambooo-cyber/samboo.github.io/main/images/WhatsApp%20Image%202025-08-28%20at%2001.55.12%20(1).jpeg
+" 
                         alt="Add another sweet memory photo - maybe a vacation or celebration together"
                         class="w-full h-48 object-cover"
                     />
