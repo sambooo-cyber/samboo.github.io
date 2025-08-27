@@ -127,7 +127,7 @@
         <div class="flex justify-center fade-in">
             <div class="photo-frame w-full max-w-md">
                 <img 
-                    src="https://imgur.com/a/5jzDwsn#NJH40Q6" 
+                    src="https://imgur.com/a/Fkl5cQw" 
                     alt="Replace this with your girlfriend's beautiful photo - upload to imgur.com and paste the direct image link here"
                     class="w-full h-auto object-cover"
                     id="partnerPhoto"
@@ -264,14 +264,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="photo-frame">
                     <img 
-                        src="https://imgur.com/a/5jzDwsn#HUC31Xz" 
+                        src="https://imgur.com/a/DsB9rGK" 
                         alt="Add another photo memory of you two together - romantic moment or special occasion"
                         class="w-full h-48 object-cover"
                     />
                 </div>
                 <div class="photo-frame">
                     <img 
-                        src="https://imgur.com/a/5jzDwsn#CjjUgEr" 
+                        src="https://imgur.com/a/LHDE1aC" 
                         alt="Add another sweet memory photo - maybe a vacation or celebration together"
                         class="w-full h-48 object-cover"
                     />
