@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+![HUC31Xz](https://github.com/user-attachments/assets/b7d307ac-2d7a-4fb5-ab04-fe3203f8d1d2)<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -127,7 +127,7 @@
         <div class="flex justify-center fade-in">
             <div class="photo-frame w-full max-w-md">
                 <img 
-                    src="https://imgur.com/a/Bnsfqd3" 
+                    src="https://imgur.com/a/5jzDwsn#NJH40Q6" 
                     alt="Replace this with your girlfriend's beautiful photo - upload to imgur.com and paste the direct image link here"
                     class="w-full h-auto object-cover"
                     id="partnerPhoto"
@@ -240,18 +240,19 @@
             <div class="romantic-text">
                 <p class="text-4xl text-rose-800 mb-6 cursive-title">My Forever Love</p>
                 <p class="text-2xl mb-6">
-                    You are the most beautiful chapter in my life's story. 
-                    Every day with you is a blessing I thank the universe for.
+                    Selamat ulang tahun pacar kesayanganku, semoga dengan bertambahnya usiamu
+                    semakin bertambah kebahagiaanmu sayangku. Semoga kamu selalu diberikan'
+                    kesehatan dan kemudahan dalam urusan hal apapun ya sayangku🤍
                 </p>
                 <p class="mb-6">
-                    No matter how many birthdays we celebrate together, my love for you only grows stronger, 
-                    deeper, and more beautiful. You are my best friend, my soulmate, and my everything.
+                    Maaf yaa kali ini ulang tahun kamu kita rayain dalam kondisi berjauhan sayangku
+                    Tapi percayalah, doaku tak pernah terputus untuk kamu sayangku🤍
                 </p>
                 <p class="text-3xl text-rose-700 mt-8 cursive-title">
                     Happy Birthday to the love of my life!
                 </p>
                 <p class="text-xl text-rose-600 mt-6">
-                    Forever yours,<br>
+                    Forever yours, Lidya🤍<br>
                     <span class="font-bold">[Your Name]</span>
                 </p>
             </div>
@@ -263,14 +264,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="photo-frame">
                     <img 
-                        src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/85f4507b-0d9a-4822-82d8-eea5ed632315.png" 
+                        src="https://imgur.com/a/5jzDwsn#HUC31Xz" 
                         alt="Add another photo memory of you two together - romantic moment or special occasion"
                         class="w-full h-48 object-cover"
                     />
                 </div>
                 <div class="photo-frame">
                     <img 
-                        src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/30be05e5-4263-4541-96bb-35ae1a422f91.png" 
+                        src="https://imgur.com/a/5jzDwsn#CjjUgEr" 
                         alt="Add another sweet memory photo - maybe a vacation or celebration together"
                         class="w-full h-48 object-cover"
                     />
@@ -283,6 +284,7 @@
             <div class="heart text-5xl mb-4">💖</div>
             <p class="text-rose-600 text-xl font-semibold">Created with all my love for the most amazing person</p>
             <p class="text-rose-500 mt-2">May your birthday be as beautiful as you are! 🎉🎂</p>
+            <p class="text-rose-500 mt-2">Selamat Ulang Tahun Kesayanganku Lidya Nurul Agustin🤍</p>
         </div>
     </div>
 
